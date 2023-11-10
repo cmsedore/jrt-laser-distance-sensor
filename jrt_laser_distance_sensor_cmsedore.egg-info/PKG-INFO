@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: jrt-laser-distance-sensor-cmsedore
+Version: 0.0.1
+Summary: A python package to interface with serial laser distance sensors fron Chengdu JRT Meter Technology Co., Ltd.
+Author: Christopher Sedore
+Author-email: Christopher Sedore <cmsedore@gmail.com>
+Project-URL: Homepage, https://github.com/cmsedore/jrt-laser-distance-sensor
+Project-URL: Bug Tracker, https://github.com/cmsedore/jrt-laser-distance-sensor/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: pyserial
+
+# JRT Laser Distance Sensor Python Library
+
+Chengdu JRT Meter Technology Company, Ltd. is a laser distance sensor manufacturer. This library is a Python library for the JRT laser distance sensor.
+
+You can find JRT sensors at www.jrt-measure.com.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install jrt-laser-distance-sensor.
+
+```bash
+pip install jrt_laser_distance_sensor
+``` 
+

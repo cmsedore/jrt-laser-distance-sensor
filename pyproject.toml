@@ -1,0 +1,23 @@
+[project]
+name = "jrt-laser-distance-sensor"
+version = "0.0.5"
+authors = [
+  { name="Christopher Sedore", email="cmsedore@gmail.com" },
+]
+description = "A python package to interface with serial laser distance sensors fron Chengdu JRT Meter Technology Co., Ltd."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = ["pyserial >= 3.5",]
+
+[project.scripts]
+jrt-laser-distance-sensor = "jrt_laser_distance_sensor.__main__:main"
+
+[project.urls]
+"Homepage" = "https://github.com/cmsedore/jrt-laser-distance-sensor"
+"Bug Tracker" = "https://github.com/cmsedore/jrt-laser-distance-sensor/issues"
